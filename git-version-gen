@@ -16,5 +16,5 @@ else
     fi
   fi
 fi
-VER=`printf %s "$VER" | head -n1`
+VER=`printf %s "1.0.1" | head -n1`
 printf %s "$VER"
